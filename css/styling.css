@@ -1,0 +1,1068 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+*::selection {
+  background: #20c997;
+  color: #fff;
+  text-shadow: none;
+}
+
+.home {
+  background-image: url(../images/intro-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.nav {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  background-color: #323231;
+}
+.navcontent {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.links {
+  width: 50%;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.links a:hover {
+  color: #20c997;
+}
+.slider {
+  position: fixed;
+  right: 0;
+  top: 110px;
+  width: 40px;
+  height: 40px;
+  background-color: #555555;
+  z-index: 5;
+  border-radius: 4px 0px 0px 4px;
+  text-align: center;
+}
+.slider i {
+  color: white;
+  margin-top: 18px;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hcontent {
+  color: white;
+  text-align: center;
+}
+
+.hcontent h5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+h1::after {
+  content: "";
+  animation: type 20s infinite;
+}
+
+@keyframes type {
+  0% {
+    content: "|";
+  }
+  1% {
+    content: "S|";
+  }
+  2% {
+    content: "Si|";
+  }
+  3% {
+    content: "Sim|";
+  }
+  4% {
+    content: "Simo|";
+  }
+  5% {
+    content: "Simon|";
+  }
+  6% {
+    content: "Simone|";
+  }
+  7% {
+    content: "Simone O|";
+  }
+  8% {
+    content: "Simone Ol|";
+  }
+  9% {
+    content: "Simone Oli|";
+  }
+  10% {
+    content: "Simone Oliv|";
+  }
+  11% {
+    content: "Simone Olivi|";
+  }
+  12% {
+    content: "Simone Olivia|";
+  }
+  15% {
+    content: "Simone Olivia|";
+  }
+  16% {
+    content: "Simone Olivi|";
+  }
+  17% {
+    content: "Simone Oliv|";
+  }
+  18% {
+    content: "Simone Oli|";
+  }
+  19% {
+    content: "Simone Ol|";
+  }
+  20% {
+    content: "Simone O|";
+  }
+  21% {
+    content: "Simone|";
+  }
+  22% {
+    content: "Simon|";
+  }
+  23% {
+    content: "Simo|";
+  }
+  24% {
+    content: "Sim|";
+  }
+  25% {
+    content: "Si|";
+  }
+  26% {
+    content: "S|";
+  }
+
+  27% {
+    content: "|";
+  }
+
+  28% {
+    content: "a|";
+  }
+  29% {
+    content: "a F|";
+  }
+  30% {
+    content: "a Fr|";
+  }
+  31% {
+    content: "a Fre|";
+  }
+  32% {
+    content: "a Free|";
+  }
+  33% {
+    content: "a Freel|";
+  }
+  34% {
+    content: "a Freela|";
+  }
+  35% {
+    content: "a Freelan|";
+  }
+  36% {
+    content: "a Freelanc|";
+  }
+  37% {
+    content: "a Freelance|";
+  }
+  38% {
+    content: "a Freelancer.|";
+  }
+  41% {
+    content: "a Freelancer.|";
+  }
+  42% {
+    content: "a Freelance|";
+  }
+  43% {
+    content: "a Freelanc|";
+  }
+  44% {
+    content: "a Freelan|";
+  }
+  45% {
+    content: "a Freela|";
+  }
+  46% {
+    content: "a Freel|";
+  }
+  47% {
+    content: "a Free|";
+  }
+  48% {
+    content: "a Fre|";
+  }
+  49% {
+    content: "a Fr|";
+  }
+  50% {
+    content: "a F|";
+  }
+  51% {
+    content: "a|";
+  }
+  52% {
+    content: "a P|";
+  }
+  53% {
+    content: "a Ph|";
+  }
+  54% {
+    content: "a Pho|";
+  }
+  55% {
+    content: "a Phot|";
+  }
+  56% {
+    content: "a Photo|";
+  }
+  57% {
+    content: "a Photog|";
+  }
+  58% {
+    content: "a Photogr|";
+  }
+  59% {
+    content: "a Photogra|";
+  }
+  60% {
+    content: "a Photograp|";
+  }
+  61% {
+    content: "a Photograph|";
+  }
+  62% {
+    content: "a Photographe|";
+  }
+  63% {
+    content: "a Photographer.|";
+  }
+  67% {
+    content: "a Photographer|";
+  }
+  68% {
+    content: "a Photographe|";
+  }
+  69% {
+    content: "a Photograph|";
+  }
+  70% {
+    content: "a Photograp|";
+  }
+  71% {
+    content: "a Photogra|";
+  }
+  72% {
+    content: "a Photogr|";
+  }
+  73% {
+    content: "a Photog|";
+  }
+  74% {
+    content: "a Photo|";
+  }
+  75% {
+    content: "a Phot|";
+  }
+  76% {
+    content: "a Pho|";
+  }
+  77% {
+    content: "a Ph|";
+  }
+  78% {
+    content: "a P|";
+  }
+  79% {
+    content: "a|";
+  }
+  80% {
+    content: "a D|";
+  }
+  81% {
+    content: "a De|";
+  }
+  82% {
+    content: "a Des|";
+  }
+  83% {
+    content: "a Desi|";
+  }
+  84% {
+    content: "a Desig|";
+  }
+  85% {
+    content: "a Design|";
+  }
+  86% {
+    content: "a Designe|";
+  }
+  87% {
+    content: "a Designer.|";
+  }
+  90% {
+    content: "a Designer.|";
+  }
+  91% {
+    content: "a Designer.|";
+  }
+  92% {
+    content: "a Designe|";
+  }
+  93% {
+    content: "a Design|";
+  }
+  94% {
+    content: "a Desig|";
+  }
+  95% {
+    content: "a Desi|";
+  }
+  96% {
+    content: "a Des|";
+  }
+  97% {
+    content: "a De|";
+  }
+  98% {
+    content: "a D|";
+  }
+  99% {
+    content: "a|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
+.hcontent p {
+  font-size: 1.3rem;
+  color: #dee3e4;
+  margin-bottom: 20px;
+}
+
+.hcontent button {
+  padding: 14px 39px;
+  background-color: transparent;
+  border-radius: 25px;
+  color: #20c997;
+  border: 2.5px solid #20c997;
+  font-size: 1.1rem;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+.hcontent button:hover {
+  cursor: pointer;
+  color: white;
+  background: #20c997;
+}
+
+.about {
+  padding: 4.5rem 0;
+}
+.headline {
+  text-align: center;
+}
+
+.me {
+  position: relative;
+}
+.me h2 {
+  font-size: 7.5rem;
+  color: rgb(0, 0, 0, 0.1);
+  opacity: 0.4;
+}
+.more {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 43px;
+}
+.me h6 {
+  font-size: 2.2rem;
+  position: relative;
+}
+.me h6::before {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #20c997;
+  position: absolute;
+  top: 45px;
+  left: 46%;
+}
+.aboutcont {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  flex-flow: wrap row;
+}
+.left {
+  width: 61%;
+}
+.right {
+  width: 30%;
+}
+ul {
+  list-style: none;
+}
+.right li {
+  border-bottom: 1px solid #dee3e4;
+  line-height: 4;
+  color: #4c4d4d;
+}
+.right a {
+  text-decoration: none;
+  color: #20c997;
+}
+.right button {
+  padding: 15px 45px;
+  border: 2px solid #20c997;
+  background-color: #20c997;
+  color: white;
+  border-radius: 45px;
+  font-size: 1.1rem;
+  transition: 0.6s all;
+  box-shadow: 0px 0px 3px green;
+}
+.right button:hover {
+  cursor: pointer;
+  background: #1baa80;
+}
+
+.left b {
+  color: #20c997;
+}
+.left h6 {
+  font-size: 1.8rem;
+  color: #252b33;
+  margin-bottom: 20px;
+}
+.left p {
+  line-height: 2;
+  font-size: 1.1rem;
+  color: #4c4d5e;
+}
+.counter {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cont {
+  text-align: center;
+  border-right: 0.1px dashed rgba(0, 0, 0, 0.2);
+  width: 25%;
+  padding: 10px 0;
+}
+.cont h3 {
+  font-size: 3rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+.cont p {
+  color: #4c4d53;
+}
+.sirvces {
+  padding: 4.5rem 0;
+  background-color: #f8f9fa;
+}
+
+.serline {
+  text-align: center;
+}
+
+.sercontainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.member {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+}
+.member .icon {
+  width: 90px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  box-shadow: 0px 0px 30px 0px #ddd;
+}
+.member i {
+  color: #20c997;
+}
+.member h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #252b33;
+}
+.member p {
+  line-height: 1.5;
+  color: #625574;
+}
+
+.summary {
+  padding: 100px 0;
+  width: 100%;
+}
+.sumline {
+  text-align: center;
+}
+
+.sumcont {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 25px;
+  gap: 50px;
+}
+
+.sumcont .cont1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.sumobj {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px 22px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.sumtitle {
+  padding: 20px 5px;
+}
+.sumobj p {
+  color: #4c4d4d;
+}
+.sumobj .date {
+  background-color: #20c997;
+  padding: 1px 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.sumobj b {
+  color: #dc356f;
+  margin-bottom: 15px;
+}
+
+.sumobj h4 {
+  color: #252b33;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.skih {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.skih h2 {
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+  color: #252b33;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skillcol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 47%;
+  margin-left: 20px;
+  gap: 15px;
+}
+.percent {
+  margin-bottom: 20px;
+  width: 97%;
+}
+
+.perc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.perc p {
+  color: #212529;
+}
+.percbar {
+  height: 8px;
+  background: #20c997;
+  border-radius: 10px;
+  /* background-color: #E9ECEF; */
+}
+.ba-1 {
+  background-image: linear-gradient(
+    to right,
+    #20c997 0%,
+    #20c997 65%,
+    #e9ecef 65%
+  );
+}
+.ba-2 {
+  background-image: linear-gradient(
+    to right,
+    #20c997 0%,
+    #20c997 95%,
+    #e9ecef 95%
+  );
+}
+.ba-3 {
+  background-image: linear-gradient(
+    to right,
+    #20c997 0%,
+    #20c997 80%,
+    #e9ecef 80%
+  );
+}
+.ba-4 {
+  background-image: linear-gradient(
+    to right,
+    #20c997 0%,
+    #20c997 70%,
+    #e9ecef 70%
+  );
+}
+.ba-5 {
+  background-image: linear-gradient(
+    to right,
+    #20c997 0%,
+    #20c997 60%,
+    #e9ecef 60%
+  );
+}
+.ba-6 {
+  background-image: linear-gradient(
+    to right,
+    #20c997 0%,
+    #20c997 99%,
+    #e9ecef 99%
+  );
+}
+
+.sumbu {
+  text-align: center;
+}
+.sumbu button {
+  padding: 13px 45px;
+  border: 2px solid #717a82;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  background-color: transparent;
+  transition: 0.7s all;
+}
+.sumbu button:hover {
+  cursor: pointer;
+  background: #717a82;
+}
+.sumbu button:hover a {
+  color: white;
+}
+
+.sumbu i {
+  color: #717a82;
+}
+.sumbu button:hover i {
+  color: white;
+}
+
+.sumbu a {
+  text-decoration: none;
+  color: #717a82;
+}
+
+.portfolio {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+.portline {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.portline .more {
+  top: 33%;
+}
+.portline h2 {
+  font-size: 7rem;
+  color: rgb(0, 0, 0, 0.1);
+  opacity: 0.5;
+}
+.portlinks {
+  margin-bottom: 20px;
+}
+.portlinks ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap: 5px;
+}
+.portlinks li {
+  padding: 8px 10px;
+}
+.portlinks a {
+  text-decoration: none;
+  color: #6c757d;
+  transition: 0.3s all;
+}
+.portlinks a:hover {
+  color: #20c997;
+}
+
+.portcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+.portcont {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  gap: 20px;
+}
+
+.portcont img {
+  width: 100%;
+}
+.imgshad {
+  position: relative;
+}
+
+.imgshadow {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgshad:hover .imgshadow {
+  opacity: 1;
+  cursor: pointer;
+}
+.imgshadow p {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.testimonial {
+  padding: 60px 0;
+}
+.clientcontainer {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  padding: 20px;
+}
+.client {
+  width: 45%;
+  background-color: #f8f9fa;
+  padding: 70px 30px;
+  margin-bottom: 20px;
+}
+.client p {
+  line-height: 2;
+  color: #212529;
+  font-weight: 600;
+}
+
+.clup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.clup img {
+  border-radius: 50%;
+}
+.cliname p {
+  margin-top: 10px;
+  color: #6c7599;
+  font-weight: 600px;
+}
+.cliname b {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.client i {
+  color: #ffc107;
+  margin-top: 20px;
+}
+.circle {
+  text-align: center;
+}
+.circle button {
+  background-color: transparent;
+  padding: 1px 1px;
+  border-radius: 50%;
+  border: 0.5px solid #1baa80;
+  transition: 0.1s all ease;
+}
+.circle button:hover {
+  cursor: pointer;
+}
+.circle span {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 10px;
+  height: 10px;
+  margin: 5px 4px;
+  display: block;
+  transition: 0.1s all ease;
+  border-radius: 30px;
+}
+.circle .spcol {
+  background-color: #1baa80;
+  border: 0.5px solid #1baa80;
+}
+.circle .b-22 {
+  border: 0px solid #1baa80;
+}
+.circle .b-22:hover {
+  border: 1px solid #1baa80;
+  cursor: pointer;
+}
+
+.circle .b-22:hover span {
+  background-color: #1baa80;
+}
+
+.contact {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.contactcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.address {
+  width: 20%;
+}
+.contactcontainer h3,
+h2 {
+  color: #252b33;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.address i {
+  color: #1baa80;
+  padding: 5px;
+}
+.address p {
+  line-height: 1.7;
+  color: #4c4d4d;
+  margin-top: 10px;
+}
+.address .ptop {
+  margin-bottom: 30px;
+}
+
+.address h2 {
+  margin-top: 30px;
+}
+
+.note {
+  width: 70%;
+}
+.note button {
+  background-color: #20c997;
+  border: 1px solid #20c997;
+  padding: 16px 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.7s all;
+}
+.note button:hover {
+  cursor: pointer;
+  background: #1baa80;
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.element {
+  width: 45%;
+}
+input {
+  width: 100%;
+  padding: 15px 5px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+.element input:focus {
+  border-color: #1baa80;
+}
+.element2 {
+  width: 92%;
+}
+
+textarea {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+.footer {
+  padding: 70px 0;
+  background: #fff;
+  color: #252b33;
+}
+.footcont {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.footcont a {
+  text-decoration: none;
+  color: #1baa80;
+}
+
+.footlink a {
+  text-decoration: none;
+  color: #252b33;
+  padding: 0 20px;
+}
+.footlink a:hover {
+  color: #20ccbf;
+}
+.link-1 {
+  border-right: 1px solid #ddd;
+}
+
+@media screen and (max-width: 600px) {
+  .cont {
+    width: 100%;
+  }
+  .portcont {
+    width: 100%;
+  }
+  .note {
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  .sumcont .cont1 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 997px) {
+  .cont {
+    width: 50%;
+  }
+  .portcont {
+    width: 45%;
+  }
+  .note {
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  .sumcont .cont1 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 998px) and (max-width: 1200px) {
+  .cont {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .member {
+    width: 100%;
+  }
+  .skillcol {
+    width: 100%;
+  }
+  .client {
+    width: 100%;
+  }
+}
